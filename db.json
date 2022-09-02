@@ -1,29 +1,31 @@
 {
-    "number": 123456789012,
-    "itemType": "ゆうパケット",
-    "companyName": "japanpost",
-    "companyNameJP": "日本郵便",
-    "statusList": [{
-            "placeName": "神奈川西郵便局（神奈川Ａ）",
-            "placeCode": "243-9799",
-            "date": "09/04",
-            "time": "00:00",
-            "status": "引受"
-        },
-        {
-            "placeName": "杉並南郵便局",
-            "placeCode": "168-8799",
-            "date": "09/05",
-            "time": "06:40",
-            "status": "到着"
-        },
-        {
-            "placeName": "杉並南郵便局",
-            "placeCode": "168-8799",
-            "date": "09/05",
-            "time": "16:18",
-            "status": "配達完了"
-        }
-    ],
-    "delivered": true
+	"result": {
+		"number": 123456789012,
+		"itemType": "ゆうパケット",
+		"companyName": "japanpost",
+		"companyNameJP": "日本郵便",
+		"statusList": [{
+				"placeName": "神奈川西郵便局（神奈川Ａ）",
+				"placeCode": "243-9799",
+				"date": "09/04",
+				"time": "00:00",
+				"status": "引受"
+			},
+			{
+				"placeName": "杉並南郵便局",
+				"placeCode": "168-8799",
+				"date": "09/05",
+				"time": "06:40",
+				"status": "到着"
+			},
+			{
+				"placeName": "杉並南郵便局",
+				"placeCode": "168-8799",
+				"date": "09/05",
+				"time": "16:18",
+				"status": "配達完了"
+			}
+		],
+		"delivered": true
+	}
 }
